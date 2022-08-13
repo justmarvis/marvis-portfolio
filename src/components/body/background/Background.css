@@ -1,0 +1,15 @@
+.background-container {
+    margin-top: 50px;
+}
+.bck-lnk:hover {
+    text-decoration: underline;
+}
+.bck-chk {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.bck-p {
+    width: 80%;
+    margin: auto;
+}

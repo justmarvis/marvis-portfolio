@@ -1,0 +1,11 @@
+.fl:hover {
+    text-decoration: underline;
+}
+.fl {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.fa-circle {
+    font-size: 8px;
+    margin-right: 10px;
+}

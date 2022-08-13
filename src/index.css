@@ -1,13 +1,99 @@
-body {
+/* imports from "fonts.google.com" and "fonts.adobe.com" */
+/* @import url("/w20/css/normalize.css"); */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Glitch&display=swap');
+
+/* General style for application's general view*/
+* {
   margin: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(128, 0, 0, 30%);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 80%);
+} 
+
+/* headings and other textes styles start here */
+h1 {
+  font-size: 40px;
+  font-family: "Rubik Glitch";
+  font-weight: 100;
+}
+h2 {
+  font-size: 20px;
+  font-family: "Rubik Glitch";
+  font-weight: 100;
+}
+h3 {
+  font-family: Quicksand;
+  font-size: 18px;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Yusei Magic";
+}
+h5 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+h6 {
+  font-size: 100px;
+}
+p {
+  font-size: 14px;
+  font-family: Quicksand;
+  font-weight: 600
+}
+.note {
+  font-size: 12px;
+  font-family: Quicksand;
+}
+/* headings and other textes styles end here */
+
+.link {
+  color: #26A69A;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: transparent;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* General style for application's small view */
+@media only screen and (max-width: 60rem) {
+  body {
+    display: block;
+  }
 }

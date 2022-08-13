@@ -1,0 +1,27 @@
+.rating-container {
+    color: #fff;
+    font-size: 50px;
+    margin: 100px 300px 100px 100px;
+    align-self: end;
+}
+.rat, .pos {
+    display: flex;
+    /* justify-content: end; */
+    align-items: end;
+}
+.ra {
+    margin-left: 10px;
+    margin-bottom: -8px;
+    color: #008000;
+}
+.po {
+    margin-left: 10px;
+    margin-bottom: -8px;
+    color: #f5f5f5;
+}
+/* Small view */
+@media only screen and (max-width: 60rem) {
+    .rating-container    {
+        display: none;
+    }
+}

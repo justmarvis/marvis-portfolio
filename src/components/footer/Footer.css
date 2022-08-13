@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin: 100px 150px;
+    align-items: end;
+}
+.left, .middle, .right {
+    width: 300px;
+}
+.copy_left {
+    text-align: left;
+}
+@media only screen and (max-width: 60rem) {
+    .left, .middle, .right {
+        width: 200px;
+    }
+    .footer-container {
+        margin: 100px 50px;
+    }
+}

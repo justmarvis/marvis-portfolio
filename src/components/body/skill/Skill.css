@@ -1,0 +1,39 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+}
+.ng, .mysql, .react, .net, .bs, .js, .c-sharp, .py {
+    font-size: 25px;
+    width: 35px;
+}
+.fa-certificate {
+    color: #007FFF;
+}
+.lis {
+    list-style: none;
+}
+.lis:hover {
+    transform: scale(1.1);
+}
+.tech, .lang {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: start;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.experience, .skil, .certifications, .accomplish {
+    background: transparent;
+    border: 10px double #800000;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* Small view */
+@media only screen and (max-width: 60rem) {
+    .lis:hover {
+        transform: none;
+    }
+}

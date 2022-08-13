@@ -1,0 +1,37 @@
+.github-container {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.git {
+    background: #f5f5f5;
+    margin: 80px;
+}
+.git img {
+    width: 300px;
+}
+.git h5 {
+    margin: 0px 0px 30px 10px;
+}
+.git p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.git a {
+    color: #f5f5f5;
+    background: #007fff;
+    padding: 10px;
+    font-weight: bold;
+}
+.git a:hover {
+    color: #000;
+    background: transparent;
+    border: 2px solid #007fff;
+}
+.mod {
+    margin-right: 10px;
+}
+.btm {
+    display: flex;
+    justify-content: space-between;
+}

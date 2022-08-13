@@ -1,0 +1,76 @@
+.head-container {
+    background: url('https://cdn.glitch.global/6a19564e-7f95-4bcb-afee-8473720639e4/code-g3d888879a_1920.jpg?v=1659691753468');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 10%);
+
+}
+.blck-board {
+    /* background: blue; */
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    text-shadow: 0px 0px 10px #000;
+}
+.quote-board {
+    background: rgba(0, 0, 0, 70%);
+    color: #800000;
+    padding:  30px 10px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    text-shadow: 0px 0px 1px #fff;
+}
+.contact {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.pitch {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 800px;
+    color: #000;
+    border-left: 2px solid #fff;
+    font-size: 50px;
+    padding: 10px 10px;
+    background: #fff;
+    text-shadow: 0px 0px 1px #000;
+}
+.hy {
+    font-size: 50px;
+}
+.profpic {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-right: 200px;
+    align-self: end;
+    opacity: 0%;
+}
+/* Small view */
+@media only screen and (max-width: 60rem) {
+    .pitch {
+        padding: 30px;
+        width: 80%;
+        margin: 100px auto;
+        height: auto;
+        color: #000;
+        border-left: 2px solid #fff;
+        font-size: 50px;
+        padding: 10px 10px;
+        background: #fff;
+        text-shadow: 0px 0px 1px #000;
+    }
+    .profpic {
+        display: none;
+    }
+    .pitch p {
+        font-size: 12px;
+    }
+    .contact {
+        display: none;
+    }
+}
