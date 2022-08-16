@@ -1,5 +1,5 @@
 import ProjectList from './projectlist/ProjectList';
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Nav from './nav/Nav';
 
 // import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -16,11 +16,16 @@ function Header() {
                         <Link to='/' className='nk'><h1 className="site-name">marvis</h1></Link>
                         <Link to='/' className='nk'><p className="byline">dev</p></Link>
                     </div>
+                    <div className='app-img'>
+                        <div className='appImg'>
+                            <img src='https://cdn.glitch.global/6a19564e-7f95-4bcb-afee-8473720639e4/me1.jpg?v=1659936307198' alt='' className='appIg' />
+                        </div>
+                    </div>
                     <div className="header-links">
                         <ul>
-                            <Link to='/testimonials' className='nk'><li className='lk'>testimonials</li></Link>
-                            <Link to='/about' className='nk'><li className='lk'>about me</li></Link>
-                            <p className='pro'>projects</p>
+                            <NavLink to='/testimonials' className='nk'><li className='lk'>testimonials</li></NavLink>
+                            <NavLink to='/about' className='nk'><li className='lk'>about me</li></NavLink>
+                            <p className='pro'>project sites</p>
                             <div className="dropdown">
                                 <span><i className="fa fa-caret-down" aria-hidden="true"></i></span>
                                 <div className='dropdown-content'>

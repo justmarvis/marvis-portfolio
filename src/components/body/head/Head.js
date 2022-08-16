@@ -7,7 +7,7 @@ function Head() {
         <div className="head-container">
             <div className="blck-board">
                 <div className="contact">
-                <p>Uyioghosa Marvis Igbineweka<br></br>marvinomeccozi@gmail.com <br></br>(801) 809 - 6530 <br></br>&#9614; <br></br>&#9615;</p>
+                <p>Uyioghosa Marvis Igbineweka<br></br>marvinomeccozi@gmail.com <br></br>+1 (801) 809 - 6530 <br></br>&#9614; <br></br>&#9615;</p>
                 </div>
                 <Pitch />
                 <Rating />

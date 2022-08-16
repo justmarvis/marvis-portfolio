@@ -26,6 +26,7 @@
 }
 .site-name {
     text-transform: uppercase;
+    text-decoration: underline;
     list-style: none;
     cursor: pointer;
     text-shadow: 0px 0px 10px #000;
@@ -58,8 +59,6 @@
 }
 .lk {
     margin-right: 50px;
-    text-decoration: none;
-    /* color:#f9f9f9; */
     color: #26A69A;
     text-transform: capitalize;
 }
@@ -159,6 +158,14 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.active {
+    text-decoration: underline;
+    color: #26A69A;
+    font-size: 20px;
+}
+.app-img {
+    display: none;
+}
 /* Small view */
 @media only screen and (max-width: 60rem) {
     .social {
@@ -169,6 +176,28 @@
     }
     .head {
         text-shadow: 0px 0px 10px #000;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .appImg {
+        width: 70px;
+        height: 80px;
+        margin: 0px auto;
+        border: 5px solid black;
+        background: transparent;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .appIg {
+        width: 50px;
+        transform: scale(2.5);
+        margin: 35px 10px;
+        background-size: cover;
+    }
+    .app-img {
+        display: flex;
+        justify-content: center;
+        /* margin-top: -100px; */
     }
     .byline {
         text-shadow: 0px 0p 10px #000;

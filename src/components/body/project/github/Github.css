@@ -35,3 +35,9 @@
     display: flex;
     justify-content: space-between;
 }
+/* Small view */
+@media only screen and (max-width: 60rem) {
+    .git {
+        margin: 50px;
+    }
+}

@@ -40,6 +40,12 @@ function Skill() {
                             <li className='lis'><img className="c-sharp" src="https://cdn.glitch.global/6a19564e-7f95-4bcb-afee-8473720639e4/c-sharp.png?v=1659664715977" alt='' /></li>
                         </div>
                     </div>
+                    <div className='certificate'>
+                    <h5>Bachelor Degree in <br />Computer Information Technology</h5>
+                    <i className="fa fa-certificate" aria-hidden="true"></i>
+                    <p>Brigham Young University - Idaho</p>
+                    <span className='sig'>Signature</span>
+                </div>
             </div>
         </div>
     );

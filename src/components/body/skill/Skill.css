@@ -9,6 +9,9 @@
 .fa-certificate {
     color: #007FFF;
 }
+.sig {
+    font-family: "Monsieur La Doulaise";
+}
 .lis {
     list-style: none;
 }
@@ -24,7 +27,7 @@
     justify-content: space-evenly;
     margin-bottom: 30px;
 }
-.experience, .skil, .certifications, .accomplish {
+.experience, .skil, .certificate, .accomplish {
     background: transparent;
     border: 10px double #800000;
     padding: 10px;

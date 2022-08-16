@@ -18,9 +18,20 @@
     justify-content: center;
     margin-top: -100px;
 }
+.devrat {
+    display: none;
+}
 /* small view */
 @media only screen and (max-width: 60rem) {
     .pitchimg {
         display: none;
+    }
+    .devrat {
+        display: flex;
+        margin: 30px 50px 0px 10px;
+        justify-content: space-between;
+    }
+    .position {
+        font-size: 16px;
     }
 }

@@ -15,7 +15,7 @@ function Footer() {
                 <span>Recently Updated: {modified[1]}</span>
             </div>
             <div className="right">
-                <span>Location: {country[0]}</span>
+                <span>Location: {country[1]}</span>
             </div>
         </div>
     );

@@ -9,7 +9,7 @@
     display: flex;
     align-items: end;
 }
-.NAME {
+.Name, .Email {
     display: flex;
     align-items: center;
     height: 50px;
@@ -22,7 +22,7 @@
     font-weight: bold;
     color: #000;
 }
-.name {
+.name, .email {
     display: flex;
     align-items: center;
     width: 95%;
@@ -89,8 +89,8 @@
     .C {
         margin: 20px;
     }
-    .NAME {
-        width: 50%;
+    .Name, .Email {
+        width: 60%;
         margin-left: 20px;
         padding: 5px 0px 5px 10px;
     }
@@ -98,6 +98,21 @@
         width: 70%;
         margin-left: 20px;
         padding: 10px 0px 10px 10px;
+    }
+    .RT {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+    .rt {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .rt:not(:last-child) {
+        margin-right: 10px;
     }
 
 }

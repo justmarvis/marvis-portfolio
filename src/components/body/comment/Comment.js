@@ -17,8 +17,11 @@ function Comment() {
         <div className='comment-container'>
             <form action="/testimonials" method="GET" className="call2action">
                 <h4 className='C'>Rate My Work</h4>
-                <div className="NAME">
-                    <input type="text" placeholder="Name" name="name" id="name" className='name' required />
+                <div className="Name">
+                    <input type="text" placeholder="John" name="name" id="name" className='name' required />
+                </div>
+                <div className="Email">
+                    <input type="text" placeholder="johndoe@gmail.com" name="email" id="email" className='email' />
                 </div>
                 <div className='RT'>
                     <h5>Rate your experience: </h5>
