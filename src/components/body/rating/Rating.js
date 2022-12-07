@@ -36,7 +36,7 @@ function Rating() {
         <br />
         <div className='rat'>
             <h4>Developer Rating: </h4>
-            <span className='ra'>0</span>
+            <span className='ra'>4.75</span>
         </div>
         </div>
     );
