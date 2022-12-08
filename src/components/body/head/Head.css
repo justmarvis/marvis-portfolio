@@ -15,13 +15,13 @@
     text-shadow: 0px 0px 10px #000;
 }
 .quote-board {
-    background: rgba(0, 0, 0, 70%);
+    background: rgba(0, 0, 0, 90%);
     color: #800000;
     padding:  30px 10px;
     width: 80%;
     margin: 10px auto;
     text-align: center;
-    text-shadow: 0px 0px 1px #fff;
+    text-shadow: 0px 0px .5px #fff;
 }
 .contact {
     margin-top: 100px;
