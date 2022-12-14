@@ -13,7 +13,7 @@ function Body() {
                 <Head />
                 <p className='bdy'>The more your scroll <i class="fa fa-arrow-down" aria-hidden="true"></i>, the better it gets!</p>
                 <Background />
-                <h2 className='heading2'>Resume</h2>
+                <h2 className='heading2'>Resume/CV</h2>
                 <div className="firstFlex">
                 <Resume  />
                 <Skill />
