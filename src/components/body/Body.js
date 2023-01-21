@@ -6,12 +6,14 @@ import Project from './project/Project';
 import Comment from './comment/Comment';
 
 import './Body.css';
+import Kmw from './kmw/kmw';
 
 function Body() {
     return (
             <div className="body-container">
                 <Head />
                 <p className='bdy'>The more your scroll <i class="fa fa-arrow-down" aria-hidden="true"></i>, the better it gets!</p>
+                <Kmw />
                 <Background />
                 <h2 className='heading2'>Resume/CV</h2>
                 <div className="firstFlex">

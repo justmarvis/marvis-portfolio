@@ -1,21 +1,22 @@
+.f1 {
+    padding-bottom: 20px;
+}
 .fl:hover {
     text-decoration: underline;
 }
 .fl a {
-    color: maroon;
+    color: #26A69A;
     cursor: pointer;
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 1vw;
     font-weight: 100;
 }
-.fa-circle {
-    color: maroon;
-    font-size: 8px;
-    margin-right: 10px;
-}
+
 /* Small view */
 @media only screen and (max-width: 60rem) {
     ::-webkit-scrollbar {
         display: none;
+    }
+    .fl a {
+        font-size: 5vw;
     }
 }
